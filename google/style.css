@@ -1,9 +1,14 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
   }
+ 
   body{
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    height: 100vh;
+  
   }
   a {
     color: #000;
@@ -14,10 +19,11 @@
     text-decoration: underline;
   }
   header {
-    margin: 1rem;
+    height: 10%;
+    margin-left: 1rem;
     display: flex;
     justify-content: flex-end;
-    height: 20%;
+   
     align-items: center;
      
   }
@@ -45,16 +51,28 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    height:73vh;
+    
   }
+  .lnXdpd{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    
+  }
+  .yr19Zb {
+    min-height: 92px;
+}
   .search{
     margin-top: 1rem;
     display: flex;
-    width: 40%;
+
     padding: .4rem;
     border-radius: 3rem;
     border: 1px solid #e6e0e0;
     align-items: center;
+    
+    width: 550px;
     
   }
   .search:hover{
@@ -67,7 +85,6 @@
     margin: 0 .2rem 0 .2rem;
     outline: none;
     font-size: 16px;
-
   }
  .search button{
     background: none;
@@ -100,11 +117,18 @@
 .buttons button:hover{
   border: 1px solid #7d848a;
 }
+.qarstb {
+  position: relative;
+}
 footer{
+  position: absolute;
+  bottom: 0;
   background:#f2f2f2;
   display: flex;
   padding:.8rem;
   justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
 }
 .f-left a{
   margin-right: 1rem;
@@ -112,3 +136,21 @@ footer{
 .f-right a{
   margin-left: 1rem;
 }
+/*responsive*/
+@media screen and (max-width: 1200px)
+{
+ 
+  footer{
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+  }
+  .search{
+    width:400px;
+    margin:1rem 2rem;
+  }
+ 
+ 
+}
+
