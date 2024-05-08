@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/input.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="calendar-header">
+
+            <div class="calendar-navigation">
+                <span id="calendar-prev">
+                    <i class="fas fa-chevron-right"></i>
+                    <h3>ماه بعد</h3>
+                </span>
+                <p class="calendar-current-date"></p>
+                <span id="calendar-next">
+                    <i class="fas fa-chevron-left"></i>
+                    <h3>ماه قبل</h3>
+                </span>
+            </div>
+        </header>
+        <hr />
+        <div class="calendar-body">
+            <ul class="calendar-weekdays">
+                <li>شنبه</li>
+                <li>یکشنبه</li>
+                <li>دوشنبه</li>
+                <li>سه شنبه</li>
+                <li>چهارشنبه</li>
+                <li>پنجشنبه</li>
+                <li>جمعه</li>
+            </ul>
+            <ul class="calendar-dates"></ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

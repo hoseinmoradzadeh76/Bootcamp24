@@ -1,5 +1,5 @@
 let result = document.getElementById("result");
-let currentInput ='';
+let currentInput = '';
 
 
 function display(value) {
