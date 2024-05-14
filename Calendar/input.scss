@@ -69,6 +69,13 @@ ul {
         height: 2px;
         background-color: $myColor;
     }
+    #event{
+        display: none;
+        margin:.2rem .5rem;
+        background: #68ee5b;
+        padding: .5rem;
+        width: 20%;
+    }
 }
 
 .calendar-body {
@@ -113,11 +120,12 @@ ul {
         li {
           border: 2px solid $myColor;
           margin:1.3rem auto;
-         
+         cursor: pointer;
           border-radius: 50%;
         
         }
         
 
     }
+   
 }

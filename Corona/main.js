@@ -10,7 +10,7 @@ document.addEventListener('keydown', function(e) {
     case 39: 
       airplane.style.left = (airplane.offsetLeft + 10) + 'px';
       break;
-    case 32: 
+    case 32:
       shootBullet();
       break;
   }
@@ -20,7 +20,7 @@ document.addEventListener('keydown', function(e) {
 function shootBullet() {
   var bullet = document.createElement('div');
   bullet.className = 'bullet';
-  bullet.style.left = (airplane.offsetLeft + 22) + 'px';  
+  bullet.style.left = (airplane.offsetLeft + 20) + 'px';  
   gameContainer.appendChild(bullet);
 
   var bulletInterval = setInterval(function() {
