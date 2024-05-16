@@ -1,0 +1,85 @@
+@import './base.css';
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 300px;
+  height: 350px;
+  box-shadow: 5px 5px 5px 5px #888888;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.container .row-1 {
+  display: flex;
+  width: 100%;
+}
+
+.container .row-1 input {
+  width: 170px;
+  height: 40px;
+  background: #58afd1;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin-left: 1rem;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.container .row-1 button {
+  width: 70px;
+  height: 44px;
+  background: #f32828;
+  padding: 0.5rem;
+  border: 1px solid black;
+  color: black;
+  margin-left: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.container .keys {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+
+.container .keys .button {
+  width: 60px;
+  height: 37px;
+  background: #ddd;
+  padding: 0.5rem;
+  border: 1px solid #bbb9b9;
+  color: black;
+  margin: 0.5rem 0.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.container .keys .operator {
+  width: 58px;
+  height: 37px;
+  background: #ebc10a;
+  padding: 0.5rem;
+  border: 1px solid black;
+  color: black;
+  margin-left: 0.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.container .keys .equal {
+  background: #07adee;
+}
